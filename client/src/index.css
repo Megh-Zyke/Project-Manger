@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 0 20%;
+}
+
+.name li{
+  list-style: none;
+  margin: 0 10px;
+}
+
+.links ul , .name ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.links ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.Time ul{
+  list-style: none;
+}
+
+.links ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.slogan{
+  text-align: center;
+}
+
+
+.projectModule , .box{
+  width: 250px;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 10%;
+  transition: .1s ease-in-out;
+  margin: 50px;
+  background-color:#cfd9df;
+  color: #000000;
+  
+}
+
+.tasks{
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.completionBar{
+  width: 100%;
+  height: 7px;
+  background-color: #000000;
+  
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.CompletedBar{
+  height: 7px;
+  max-width: 100%;
+  background-color: #00ff00;
+  margin: 10px 0;
+  border-radius: 20px;
+  transition: .5s ease-in-out;
+  overflow-x: hidden;
+}
+
+.timeRemaining{
+  padding-bottom: 5%;
+  border-radius: 20px;
+}
+
+
+.projectModule:hover , .box:hover{
+  transform: scale(1.02);
+  box-shadow: 0 0 10px 0 rgba(53, 53, 53, 0.5);
+}
+
+
+.Projects{
+  margin: 0 10%;
+}
+
+.Projects {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+}
+
+.Date{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+.newProjectForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  width: 250px;
+  background-color: #cfd9df;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #000; 
+}
+
+
+.newProjectForm input{
+  width: 82.5%;
+  height: 30px;
+  border-radius: 20px;
+  padding: 0 20px;
+ margin: 10px 0;
+
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.button{
+  font-size: 1.5rem;
+  background-color: blue;
+  color: #fff;
+}
+
+.button:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+  border: blue 2px solid;
+  color: blue;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(53, 53, 53, 0.5);
+}
+
+
